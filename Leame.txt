@@ -12,3 +12,4 @@ git commit -m "1er commit"
 git remote add origin CADENA	#Conectarme remotamente con el servidor Git
 git pull origin master		#Bajar contenido del repositorio
 git push origin master		#Subir contenido del repositorio
+
