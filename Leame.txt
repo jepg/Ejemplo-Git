@@ -1,7 +1,14 @@
 ===== Guia GitHub
-aptitude install git-core
+aptitude install git-core	#Instalar Git
 git config --global user.name "John Edwin"
 git config --global user.email "jjeeppgg@gmail.com"
 ssh-keygen
-	~/.ssh/id_rsa		#Generar la clave Ssh
-cat ~/.ssh/id_rsa.pub	#Copiar la clave publica en GitHub - SSH Keys
+	~/.ssh/id_rsa			#Generar la clave Ssh
+cat ~/.ssh/id_rsa.pub		#Copiar la clave publica en GitHub - SSH Keys
+git init					#Iniciar el repositorio local
+git add Leame.txt 			#Adicionar un archivo al repositorio
+git status					#Verificar el estado del repositorio
+git commit -m "1er commit"
+git remote add origin CADENA	#Conectarme remotamente con el servidor Git
+git pull origin master		#Bajar contenido del repositorio
+git push origin master		#Subir contenido del repositorio
